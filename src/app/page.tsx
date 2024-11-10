@@ -17,13 +17,13 @@ export default function Home() {
       </div>
       <section className="home">
         <div className="home-content">
-          <h1>Hi,I amm Mehboob Ahmed</h1>
+          <h1>Hi.I am Mehboob Ahmed</h1>
           <h3>Next.Js Developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            consectetur veritatis voluptatem, sint odit explicabo molestiae
-            laborum unde, aliquam sit debitis libero neque itaque dicta quis ad
-            consequatur, ratione quos.
+            Lorem ipsum dolor sit amet consectetur. adipisicing elit. Iure
+            consectetur veritatis voluptatem. sint odit explicabo molestiae
+            laborum unde. aliquam sit debitis libero neque itaque dicta quis ad
+            consequatur. ratione quos.
           </p>
           <div className="btn-box">
             <a href="#">Hire Me</a>
@@ -39,12 +39,12 @@ export default function Home() {
     <div className="about-content">
      
       <div className="about-text">
-        <p>Hi, I am <strong>[Mehboob Ahmed]</strong>, a passionate Next.js developer with a strong desire to build fast, scalable, and secure web applications.</p>
-        <p>As a fresh talent in the market, I have already gained valuable experience in developing various projects, including:</p>
+        <p>Hi. I am <strong>[Mehboob Ahmed]</strong>. a passionate Next.js developer with a strong desire to build fast. scalable. and secure web applications.</p>
+        <p>As a fresh talent in the market. I have already gained valuable experience in developing various projects. including:</p>
         <ul>
           <li><strong>Personal Portfolio</strong>: A Next.js portfolio showcasing my skills and experience.</li>
-          <li><strong>E-commerce Website</strong>: A fully functional e-commerce website built with Next.js, React, and Stripe.</li>
-          <li><strong>Blog Website</strong>: A blog website built with Next.js, Markdown, and Tailwind CSS.</li>
+          <li><strong>E-commerce Website</strong>: A fully functional e-commerce website built with Next.js. React. and Stripe.</li>
+          <li><strong>Blog Website</strong>: A blog website built with Next.js. Markdown. and Tailwind CSS.</li>
         </ul>
         <p>I specialize in:</p>
         <ul>
@@ -74,7 +74,7 @@ export default function Home() {
     <div className="services-content">
       <div className="service-card">
         <h3 className="service-title">Next.js Development</h3>
-        <p className="service-description">Build fast, scalable, and secure web applications with Next.js.</p>
+        <p className="service-description">Build fast. scalable. and secure web applications with Next.js.</p>
         <ul className="service-features">
           <li>Custom Next.js solutions</li>
           <li>Server-side rendering (SSR)</li>
@@ -88,7 +88,7 @@ export default function Home() {
         <p className="service-description">Build dynamic and interactive user interfaces with React.js.</p>
         <ul className="service-features">
           <li>Custom React components</li>
-          <li>State management (Redux, MobX)</li>
+          <li>State management (Redux. MobX)</li>
           <li>React Hooks</li>
           <li>Integration with Next.js</li>
         </ul>
@@ -98,9 +98,9 @@ export default function Home() {
         <h3 className="service-title">Front-end Development</h3>
         <p className="service-description">Craft visually appealing and responsive web applications.</p>
         <ul className="service-features">
-          <li>HTML5, CSS3, JavaScript (ES6+)</li>
+          <li>HTML5. CSS3. JavaScript (ES6+)</li>
           <li>Responsive web design (RWD)</li>
-          <li>CSS frameworks (Tailwind CSS, Bootstrap)</li>
+          <li>CSS frameworks (Tailwind CSS. Bootstrap)</li>
           <li>UI/UX design</li>
         </ul>
       </div>
@@ -109,9 +109,9 @@ export default function Home() {
         <h3 className="service-title">Back-end Development</h3>
         <p className="service-description">Build robust and scalable back-end solutions.</p>
         <ul className="service-features">
-          <li>Node.js, Express.js</li>
+          <li>Node.js. Express.js</li>
           <li>RESTful API design</li>
-          <li>Database integration (MongoDB, PostgreSQL)</li>
+          <li>Database integration (MongoDB. PostgreSQL)</li>
           <li>Authentication and authorization</li>
         </ul>
       </div>

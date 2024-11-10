@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <section className="home">
         <div className="home-content">
-          <h1>Hi,I'm Mehboob Ahmed</h1>
+          <h1>Hi,I amm Mehboob Ahmed</h1>
           <h3>Next.Js Developer</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
@@ -27,7 +27,7 @@ export default function Home() {
           </p>
           <div className="btn-box">
             <a href="#">Hire Me</a>
-            <a href="#">Let's Talk</a>
+            <a href="#">Lets Talk</a>
           </div>
         </div>
       </section>
@@ -39,8 +39,8 @@ export default function Home() {
     <div className="about-content">
      
       <div className="about-text">
-        <p>Hi, I'm <strong>[Mehboob Ahmed]</strong>, a passionate Next.js developer with a strong desire to build fast, scalable, and secure web applications.</p>
-        <p>As a fresh talent in the market, I've already gained valuable experience in developing various projects, including:</p>
+        <p>Hi, I am <strong>[Mehboob Ahmed]</strong>, a passionate Next.js developer with a strong desire to build fast, scalable, and secure web applications.</p>
+        <p>As a fresh talent in the market, I have already gained valuable experience in developing various projects, including:</p>
         <ul>
           <li><strong>Personal Portfolio</strong>: A Next.js portfolio showcasing my skills and experience.</li>
           <li><strong>E-commerce Website</strong>: A fully functional e-commerce website built with Next.js, React, and Stripe.</li>

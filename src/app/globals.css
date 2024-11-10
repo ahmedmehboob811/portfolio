@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        color: #fff;
+        background-color: #081b29;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+.Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active
+{
+    color: #00abf0;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+
+}
+.about-section {
+
+    background-color: #081b29;
+    padding: 50px 0;
+  }
+  
+  .about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-section .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-image {
+    margin-right: 20px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .about-text {
+    flex-basis: 60%;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #337ab7;
+  }
+  
+  .social-links a:hover {
+    color: #23527c;
+  }
+  .section-title2{
+    color: white;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .services-section {
+    color: black;
+    background-color: #081b29;
+    padding: 50px 0;
+  }
+  
+  .services-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-section .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+  }
+  
+  .service-title {
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .service-features {
+    font-size: 18px;
+    list-style: disc;
+    padding-left: 20px;
+  }
+  @media (max-width: 768px) {
+    .service-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-card {
+      width: 100%;
+    }
+  }
+    
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .about-text {
+      flex-basis: 100%;
+    }
+  }
+  
+
